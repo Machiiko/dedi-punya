@@ -478,10 +478,10 @@ margin: 20px 20px 50px;
 
 @media (max-width:378px){
     .title-image{
-        width: 60%;
+        width: 70%;
         position: absolute;
         top: 86%;
-        left: 19%;
+        left: 14%;
     }
 
    
