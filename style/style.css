@@ -15,7 +15,18 @@ body{
 .container-fluid{
     padding: 7% 15%;
 }
+.link-download{
+    color: white;
+    text-decoration: none;
+}
 
+.link-download:hover{
+    color: black;
+}
+
+.link-download::after{
+    color: white;
+}
 /* heading */
 .big-heading{
     font-size:4rem;
