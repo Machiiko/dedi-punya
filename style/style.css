@@ -309,9 +309,10 @@ margin: 20px 20px 50px;
     .title-image{
         width:80%;
         position: absolute;
-        top: 80%;
+        top: 90%;
         left: 10%;
     }
+
 
     .box-rectangle{
         left: 8.5%;
@@ -319,19 +320,41 @@ margin: 20px 20px 50px;
     .exp-img{
         left: 5%;
     }
+
+    #title .container-fluid{
+        padding-bottom: 120%;
+    }
+}
+
+@media(min-width:992px){
+    .title-image{
+        width: 52%;
+        position: absolute;
+       
+   
+}
 }
 
 @media(min-width:1000px){
     .title-image{
-        
+        left: 45%;
         position: absolute;
         
     }
+
+    #title .container-fluid{
+        padding: 3% 10% 30% 10%;
+    }
+
 }
 @media (min-width: 1200px){
     /* .exp-head{
         margin-left: 115px;
     } */
+
+    #title .container-fluid{
+        padding: 3% 10% 30% 10%;
+    }
 
     
 }
@@ -342,12 +365,22 @@ margin: 20px 20px 50px;
         top: 10%;
         
     }
+
+    #title .container-fluid{
+        padding: 3% 10% 30% 10%;
+    }
 }
+
 
 @media(min-width: 1450px){
     .title-image{
-        left: 50%;
-        top: 10%;
+        
+        left: 45%;
+        top: 5%;
+    }
+
+    #title .container-fluid{
+        padding: 3% 10% 30% 10%;
     }
 }
 
@@ -381,9 +414,9 @@ margin: 20px 20px 50px;
     margin-left: 0px;
 }
 
-#title .container-fluid{
+/* #title .container-fluid{
     padding-bottom: 100%;
-}
+} */
 
 
 
@@ -401,7 +434,7 @@ margin: 20px 20px 50px;
     .title-image{
         width: 65%;
         position: absolute;
-        top: 75%;
+        top: 85%;
         left: 16%;
     }
 
@@ -490,6 +523,7 @@ margin: 20px 20px 50px;
         
      }
 
+    
     
 
 }
