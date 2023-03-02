@@ -305,9 +305,19 @@ margin: 20px 20px 50px;
 
 }
 
-@media (max-width:px) {
+@media (max-width:780px) {
     .title-image{
-        display: none;
+        width:80%;
+        position: absolute;
+        top: 80%;
+        left: 10%;
+    }
+
+    .box-rectangle{
+        left: 8.5%;
+    }
+    .exp-img{
+        left: 5%;
     }
 }
 
@@ -444,6 +454,8 @@ margin: 20px 20px 50px;
   
 }
 
+
+
 @media(max-width:420px){
     .box-rectangle-exp{
        
@@ -455,7 +467,7 @@ margin: 20px 20px 50px;
 
 @media (max-width: 330px){
     .exp-img{
-        right: 60px;
+        left: -24.5%;
     }
     .title-image{
         width: 100%;
@@ -467,7 +479,9 @@ margin: 20px 20px 50px;
 
 @media (min-width: 360px){
     .exp-img{
-    right: 40px;
+    left: -10%;
+
+   
     }
     .box-rectangle-exp{
        
@@ -523,7 +537,8 @@ margin: 20px 20px 50px;
 
 @media (min-width:400px){
     .exp-img{
-        right: 10px;
+        left: -5%;
+        
     }
 
      
